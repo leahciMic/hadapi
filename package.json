@@ -1,0 +1,38 @@
+{
+  "name": "hadapi",
+  "version": "0.0.1",
+  "author": {
+    "name": "Michael Leaney",
+    "email": "leahcimic@gmail.com"
+  },
+  "description": "Highly available distributed application programming interface",
+  "scripts": {
+    "start": "node -r esm src/main.js",
+    "debug": "node -r esm --inspect-brk=9339 src/main.js",
+    "test": "npx eslint . && npx jest"
+  },
+  "main": "src/index.js",
+  "module": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leahciMic/hadapi"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "esm": "^3.2.25",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "nanoid": "^2.0.3",
+    "serialize-error": "^4.1.0",
+    "zeromq": "^5.1.0"
+  }
+}
