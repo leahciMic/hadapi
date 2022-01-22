@@ -31,7 +31,7 @@
     "prettier": "^1.18.2"
   },
   "dependencies": {
-    "nanoid": "^2.0.3",
+    "nanoid": "^3.1.31",
     "serialize-error": "^4.1.0",
     "zeromq": "^5.1.0"
   }
